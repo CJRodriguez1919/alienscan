@@ -1,0 +1,9 @@
+id,occurred_at,reported_at,city,state,country,shape,duration_seconds,duration_text,summary,latitude,longitude,source_url
+1001,2020-07-04T22:14:00,2020-07-05T08:00:00,Phoenix,AZ,US,light,300,5 minutes,Three orange lights in formation moving slowly south. No sound.,33.4484,-112.0740,https://example.com/r/1001
+1002,2020-07-04T23:01:00,2020-07-05T09:30:00,Tempe,AZ,US,fireball,30,30s,Bright green fireball heading west then disappeared.,33.4255,-111.9400,https://example.com/r/1002
+1003,2019-11-12T19:30:00,2019-11-13T12:00:00,Seattle,WA,US,triangle,180,3 minutes,Triangular craft with three white lights at corners. Silent.,47.6062,-122.3321,https://example.com/r/1003
+1004,2018-08-01T01:00:00,2018-08-02T10:15:00,Miami,FL,US,disk,60,1 min,Saw a classic disk shape hovering low above the bay.,25.7617,-80.1918,https://example.com/r/1004
+1005,2017-04-22T03:45:00,2017-04-22T11:00:00,Austin,TX,US,sphere,15,15 seconds,A glowing sphere shot across the sky and vanished.,30.2672,-97.7431,https://example.com/r/1005
+1006,2021-01-15T20:20:00,2021-01-16T07:00:00,Portland,OR,US,light,600,10 minutes,Train of bright lights — likely Starlink based on the timing.,45.5152,-122.6784,https://example.com/r/1006
+1007,2015-10-31T22:00:00,2015-11-01T11:30:00,Boulder,CO,US,unknown,,until it disappeared,Strange flickering object with color shifts.,40.0150,-105.2705,https://example.com/r/1007
+1008,2022-12-31T23:55:00,2023-01-01T03:00:00,New York,NY,US,fireball,5,5s,Quick green flash over the harbor right before fireworks.,40.7128,-74.0060,https://example.com/r/1008
