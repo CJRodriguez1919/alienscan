@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background: theme("colors.paper.100");
+    color: theme("colors.ink.900");
+    font-family: theme("fontFamily.body");
+    font-feature-settings: "ss01", "ss02";
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background: theme("colors.signal.400");
+    color: theme("colors.ink.900");
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto max-w-7xl px-4;
+  }
+
+  .prose-tight h2 {
+    @apply font-display text-2xl font-medium text-ink-900;
+  }
+
+  .prose-tight p {
+    @apply text-ink-700 leading-relaxed;
+  }
+}
+
+/* MapLibre overrides for the light palette */
+.maplibregl-popup-content {
+  background: theme("colors.paper.50") !important;
+  border: 1px solid theme("colors.paper.200");
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+  padding: 14px !important;
+}
+
+.maplibregl-popup-tip {
+  border-top-color: theme("colors.paper.50") !important;
+}
